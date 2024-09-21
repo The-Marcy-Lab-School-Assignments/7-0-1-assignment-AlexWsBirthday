@@ -41,8 +41,8 @@ Your goal is to meet at least 75% of these requirements to complete the assignme
 * <input type="checkbox">Bonus: modify the `useEffect` hook to be re-triggered whenever the user input changes (not just when they click the button).
 
 **Miscellaneous**
-* <input type="checkbox">The `config.js` file is listed in the `.gitignore` and is NOT included in the final repository.
-* <input type="checkbox">At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
+* <input type="checkbox" checked>The `config.js` file is listed in the `.gitignore` and is NOT included in the final repository.
+* <input type="checkbox" checked>At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
 * <input type="checkbox">Bonus: Display the gifs as a grid using flexbox or grid!
 
 ## Set Up & Starter Code

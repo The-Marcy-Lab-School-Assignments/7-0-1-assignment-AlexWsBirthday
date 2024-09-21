@@ -1,7 +1,8 @@
 import NavBar from './components/NavBar'
 import GifContainer from './components/GifContainer'
 import GifSearch from './components/GifSearch'
-import { handleFetch } from './utils';
+// import { handleFetch } from './utils';
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className="ui container">
         <GifSearch />
         <br />
-        <GifContainer />
+        {/* <GifContainer /> */}
       </div>
     </div>
   );

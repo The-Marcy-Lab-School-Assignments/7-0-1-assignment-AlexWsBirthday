@@ -40,8 +40,8 @@ function GifSearch() {
         const fetchTrending = async () => {
 
             const [data, error] = await handleFetch(trendingGifs)
-            if (data) { setGifs(data.data); console.log(`fetch success! ${data.data}`) }; //if the fetch is successful, take the data from the handleFetch response and use setGifs to update the component to show the resulting data
-            if (error) { setError(error); console.log(error) }; // if there is an error, set the error to show it on the dinkin. thing
+            if (data) { setGifs(data.data); console.log(`fetch success! ${data.data}`) } //if the fetch is successful, take the data from the handleFetch response and use setGifs to update the component to show the resulting data
+            if (error) { setError(error); console.log(error) } // if there is an error, set the error to show it on the dinkin. thing
         }
         fetchTrending() // invoke the fetchTrending function because it is asynchronous
     }, []); //we only want this effect to be rendered to this component on its initial (first) render. 
@@ -56,7 +56,7 @@ function GifSearch() {
         if (data) {
             setGifs(data.data)
             console.log(data.data)
-        }; // if there is data, set the gifs to the array in the endpoint data
+        } // if there is data, set the gifs to the array in the endpoint data
         if (error) setError(error) // if there is an error, set the error
     }
 
